@@ -4,7 +4,7 @@ AGES = [20, 21, 22, 23]
 JOHN = NAMES[0]
 PAUL = NAMES[1]
 
-JOHN_PAUL = NAMES[:2]
+JOHN_PAUL = NAMES[:2] #slice - names to the left of 2 gives us John and Paul
 GEORGE_RINGO = NAMES[2:]
 REVERSE = NAMES[::-1]
 EVERY_OTHER = NAMES[::2]
